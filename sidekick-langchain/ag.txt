@@ -1,0 +1,6 @@
+flight_task = """Find me the best round-trip flight from New York to London, leaving about a month from now
+and returning a week later. I care about price first, then total journey time, and I would rather avoid
+itineraries with two or more stops. Write your recommendation with the top three options to flights.md,
+then send me a push notification with the price of your top pick."""
+
+flight_criteria = "flights.md is written with three specific options including airline, times and price, plus a clear recommendation, and a push notification was sent with the recommended price."
